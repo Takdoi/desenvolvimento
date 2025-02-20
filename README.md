@@ -1,4 +1,7 @@
 # 7daysOfCodeChatBOT
+## Diagrama - Fluxograma 
+![Fluxograma do Chatbot](DIAGRAMA_7DAYSOFCODE_PYTHON_CHATBOT.jpg)
+
 
 ## 📌 Descrição
 Este projeto é um chatbot desenvolvido durante o desafio #7DaysOfCode, utilizando Python e bibliotecas relevantes para processamento de linguagem natural. Ele está estruturado para futuras melhorias e contribuições da comunidade.
