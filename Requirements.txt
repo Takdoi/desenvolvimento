@@ -1,0 +1,7 @@
+# Dependências do projeto
+jupyter
+flask  # Caso esteja usando Flask
+fastapi  # Caso esteja usando FastAPI
+ngrok
+nltk  # Caso use NLP
+spacy  # Caso use NLP
