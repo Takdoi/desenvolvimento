@@ -19,7 +19,7 @@ Este projeto é um chatbot desenvolvido durante o desafio #7DaysOfCode, utilizan
 ├── 7daysOfCodeChatBOT.ipynb  # Notebook principal
 ├── requirements.txt          # Dependências do projeto
 ├── README.md                 # Documentação principal
-├── CONTRIBUTING.md           # Guia para contribuidores
+├── CONTRIBUINDO.MD           # Guia para contribuidores
 ├── LICENSE                   # Licença MIT
 ```
 
