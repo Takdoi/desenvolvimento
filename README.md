@@ -1,47 +1,28 @@
-# 7daysOfCodeChatBOT
-## Diagrama - Fluxograma 
-![Fluxograma do Chatbot](DIAGRAMA_7DAYSOFCODE_PYTHON_CHATBOT.jpg)
+# 🤖 7DaysOfCode: Chatbot com LLM  
 
+[![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Takdoi/desenvolvimento/blob/main/7daysOfCodeChatBOT.ipynb)  
 
-## 📌 Descrição
-Este projeto é um chatbot desenvolvido durante o desafio #7DaysOfCode, utilizando Python e bibliotecas relevantes para processamento de linguagem natural. Ele está estruturado para futuras melhorias e contribuições da comunidade.
+Chatbot desenvolvido no desafio #7DaysOfCode usando **Hugging Face Transformers** e **Google Colab com GPU A100**.  
 
-## 🚀 Tecnologias Utilizadas
-- Python 3.x
-- Jupyter Notebook
-- Flask/FastAPI (se aplicável)
-- Ngrok (para testes locais)
-- Bibliotecas de NLP como NLTK ou SpaCy (se aplicável)
+## 📊 Fluxograma  
+![Diagrama do Chatbot](DIAGRAMA_7DAYSOFCODE_PYTHON_CHATBOT.jpg)  
 
-## 📂 Estrutura do Repositório
-```
-📦 7daysOfCodeChatBOT
-├── 7daysOfCodeChatBOT.ipynb  # Notebook principal
-├── requirements.txt          # Dependências do projeto
-├── README.md                 # Documentação principal
-├── CONTRIBUTING.MD           # Guia para contribuidores
-├── LICENSE                   # Licença MIT
-```
+## 🛠️ Tecnologias  
+- **Python 3.10+**  
+- **Hugging Face Transformers** (Modelo: `facebook/blenderbot-400M-distill`)  
+- **Google Colab** (GPU A100 para aceleração)  
+- **Jupyter Notebook**  
 
-## 🛠️ Instalação e Uso
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/7daysOfCodeChatBOT.git
-   cd 7daysOfCodeChatBOT
-   ```
-2. Crie um ambiente virtual e instale as dependências:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-3. Abra o Jupyter Notebook e execute o chatbot:
-   ```bash
-   jupyter notebook 7daysOfCodeChatBOT.ipynb
-   ```
+## 🚀 Como Usar (Recomendado: Colab)  
+1. **Acesse o notebook diretamente no Colab**:  
+   → [Link para o Notebook](https://colab.research.google.com/github/Takdoi/desenvolvimento/blob/main/7daysOfCodeChatBOT.ipynb)  
+2. **Execute as células em ordem**:  
+   - A primeira instala `transformers` e `torch`.  
+   - A segunda carrega o modelo.  
+   - A terceira inicia o chat interativo.  
 
-## 🤝 Contribuindo
-Contribuições são bem-vindas! Veja o [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre como ajudar.
-
-## 📜 Licença
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+💡 **Para execução local** (não recomendado sem GPU):  
+```bash
+git clone https://github.com/Takdoi/desenvolvimento.git
+pip install -r requirements.txt
+jupyter notebook 7daysOfCodeChatBOT.ipynb
